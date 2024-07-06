@@ -1,7 +1,7 @@
 ## Инструкция по использованию
 Для начала работы с приложением стоит:
-* создать виртуальное окружение(Например, python -m venv my_venv)
-* запустить его(bat файл, находящийся в my_venv/Scripts/activate.bat, если следовать предыдущему примеру)
-* Загрузить в виртуальное окружение зависимости из requirements.txt (pip install -r requirements.txt)
+* Установить Anaconda или Miniconda, если они еще не установлены.
+* создать виртуальное окружение с необходимыми пакетами(conda pyenv create -f environment.yml)
+* запустить его(conda activate pyenv)
 * Запустить файл из директории, где находится файл main.py (python main.py)
 
